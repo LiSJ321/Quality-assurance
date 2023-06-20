@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>RPN Calculator - Result</title>
+</head>
+<body>
+    {% if error %}
+        <h1>Error:</h1>
+        <p>{{ error }}</p>
+    {% else %}
+        <h1>Result:</h1>
+        <p>{{ result }}</p>
+    {% endif %}
+</body>
+</html>
